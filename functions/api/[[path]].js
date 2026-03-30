@@ -5,7 +5,7 @@
  * 路由: /api/:path*
  */
 
-const BACKEND_URL = 'http://139.196.46.100:8000'
+const BACKEND_URL = 'http://47.117.111.121:8000'
 
 export async function onRequest(context) {
   const { request, params } = context
