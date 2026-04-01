@@ -5,7 +5,7 @@
  * 路由: /api/:path*
  */
 
-const BACKEND_URL = 'http://47.117.111.121:8000'
+const BACKEND_URL = 'https://xg.789shouyou.com'
 
 export async function onRequest(context) {
   const { request, params } = context
